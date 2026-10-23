@@ -7,7 +7,7 @@
 - Se agregó tambien la clase "sistema" que paso el funcionamiento del main a esta clase para que el main quedara más limpio.
 
 ## Descripción del avance 2
-- Se agrego un archivo .txt que guardara el vector de videojuegos cada vez que se agregue un juego nuevo
+- Se agrego un archivo .txt que guardara el vector de videojuegos cada vez que se agregue un juego nuevo, ya que el proyecto ya contaba con un vetor que guardara los videojuegos agregados, pero los borraba al temrinar la eecucion del programa.
 
 ### Cambios sobre el primer avance
 1. Se cambio el metodo de ordenamiento a un merge sort, ya que un bubble sort es ineficiente al momento de guardar muchos datos. Mientras el bubble sort tiene una complejidad temporal de O(n^2) en el peor de los casos y O(n) en los mejores, el merge sort en cualquier caso es O(n log n) sienda mas eficiente.
