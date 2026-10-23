@@ -20,6 +20,7 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+#include <cctype>
 
 #include "Videojuego.h"
 #include "JuegoRPG.h"
@@ -28,6 +29,26 @@
 #include "Ordenar.h"
 
 using namespace std;
+
+/**
+ * aMinusculas convierte un texto a minusculas.
+ *
+ * @param texto texto a convertir
+ * @return el mismo texto en minusculas
+ *
+ * La complejidad temporal es O(n), donde n es la longitud del texto, porque
+ * recorre cada letra una vez
+ * La complejidad espacial es O(n) porque se crea una copia del texto.
+ */
+string aMinusculas(string texto) {
+
+    for (int i = 0; i < texto.size(); i++) {          // O(n), recorre cada letra
+
+        texto[i] = tolower(texto[i]);                 // O(1), convierte una letra a minuscula
+    }
+
+    return texto;
+}
 
 class Biblioteca {
 
@@ -132,12 +153,14 @@ void Biblioteca::buscarJuego(
 
     bool encontrado = false;                          // O(1), bandera para saber si se encontro
 
+    string buscadoMin = aMinusculas(nombreBuscado);   // O(n), nombre buscado en minusculas
+
     for (int i = 0;
          i < juegos.size();
          i++) {                                       // O(n), recorre todos los juegos
 
-        if (juegos[i]->getNombre()
-            == nombreBuscado) {                       // O(1), compara dos nombres
+        if (aMinusculas(juegos[i]->getNombre())
+            == buscadoMin) {                          // O(n), compara ignorando mayusculas
 
             juegos[i]->mostrarInfo();                 // O(1), muestra el juego encontrado
 
