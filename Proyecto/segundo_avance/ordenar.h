@@ -6,7 +6,7 @@
  * 23/10/2026
  * Version : 2
  * Esta clase ordena un vector de punteros a Videojuego de forma
- * ascendente por su calificacion, usa bubble sort para ordenarlos.
+ * ascendente por su calificacion, usa merge sort para ordenarlos.
  */
 
 #ifndef ORDENADORJUEGOS_H
