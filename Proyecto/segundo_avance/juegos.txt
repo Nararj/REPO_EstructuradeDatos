@@ -1,0 +1,17 @@
+/*
+ *
+ * Proyecto Biblioteca Videojuegos
+ * Narayana Rajaram López
+ * A01714315
+ * 23/10/2026
+ * Version : 2
+ * Archivo que almacena y guarda los juegos agregados por emdio de un vector.
+ */
+
+
+RPG,The Witcher 3,PC,9.8,60
+ACCION,Doom,PC,8,9
+AVENTURA,Life is Strange,PC,8.5,20
+RPG,Skyrim,Xbox,9.2,80
+ACCION,God of War,PS5,9.5,6
+AVENTURA,Life Is Strange True Colors,PC,9.8,100
