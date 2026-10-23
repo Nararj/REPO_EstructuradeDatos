@@ -67,7 +67,7 @@ JuegoRPG::JuegoRPG(string nom,
  */
 void JuegoRPG::mostrarInfo() {
 
-    cout << "\n JUEGO RPG "
+    cout << "\nJUEGO RPG "
          << endl;
 
     mostrarDatosBasicos();

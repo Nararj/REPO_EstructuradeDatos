@@ -67,7 +67,7 @@ JuegoAccion::JuegoAccion(string nom,
  */
 void JuegoAccion::mostrarInfo() {
 
-    cout << "\n JUEGO DE ACCION "
+    cout << "\nJUEGO DE ACCION "
          << endl;
 
     mostrarDatosBasicos();

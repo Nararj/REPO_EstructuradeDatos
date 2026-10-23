@@ -69,7 +69,7 @@ JuegoAventuraGrafica::JuegoAventuraGrafica(
  */
 void JuegoAventuraGrafica::mostrarInfo() {
 
-    cout << "\n JUEGO DE AVENTURA GRAFICA "
+    cout << "\nJUEGO DE AVENTURA GRAFICA "
          << endl;
 
     mostrarDatosBasicos();
