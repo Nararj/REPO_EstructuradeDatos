@@ -12,6 +12,7 @@
 ### Cambios sobre el primer avance
 1. Se cambio el metodo de ordenamiento a un merge sort, ya que un bubble sort es ineficiente al momento de guardar muchos datos. Mientras el bubble sort tiene una complejidad temporal de O(n^2) en el peor de los casos y O(n) en los mejores, el merge sort en cualquier caso es O(n log n) sienda mas eficiente.
 2. Se agrego un archivo .txt para guardar el vector de videojuegos que se vayan agregando, tambien se actualizo bioblioteca.h y sistema.h para que leyeran directamente de este archivo asi como al momento de agregar un juegp se guarde directamente en este (todavia no sirve para favoritos), esto porque el programa no hacia realmente algo ya que despues de terminarlo se borraban todos los juegos.
+3. Se agregó un metodo para que al momento de buscar juegos se convierta en minusculas y asi evitar que no se encuentren juegos por errores de ortografía, antes tenias que escribir el nombre exactamente como lo guardaste o no lo encontraba.
 
 ## Instrucciones para compilar el avance de proyecto
 - Abrir todos los archivos .cpp en un proyecto de C++ (..., main.cpp)
