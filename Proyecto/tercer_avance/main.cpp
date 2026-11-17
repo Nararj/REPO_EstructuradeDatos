@@ -12,6 +12,8 @@
  * La complejidad total de main es la de Sistema: O(constructor) + O(ejecutar).
  * main por si solo es O(1): crea un objeto y llama a dos metodos.
  */
+#include "Sistema.h"
+
 int main() {
 
     Sistema sistema;                                  // O(n log n + f) prom., carga los archivos

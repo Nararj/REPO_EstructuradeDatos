@@ -1,11 +1,1 @@
-/*
- *
- * Proyecto Biblioteca Videojuegos
- * Narayana Rajaram López
- * A01714315
- * 23/10/2026
- * Version : 3
- * Archivo que almacena y guarda los juegos favoritos por medio de un vector.
- */
-
 Life Is Strange
