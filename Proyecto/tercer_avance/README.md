@@ -1,4 +1,4 @@
-# Proyecto: Nombre de tu proyecto
+# Proyecto: Biblioteca Videojuegos
 - La idea de este proyecto es permitir al usuario registrar, organizar y visualizar videojuegos según su género donde el sistema incluye juegos de acción, RPG y aventura gráfica, cada uno con características específicas.
 
 ## Descripción del avance 1
